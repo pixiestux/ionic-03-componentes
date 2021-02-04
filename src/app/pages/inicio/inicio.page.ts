@@ -50,9 +50,14 @@ export class InicioPage implements OnInit {
       redirectTo: "/date-time"
     },
     {
-      icon: "car-outline",
+      icon: "car",
       name: "Fab",
       redirectTo: "/fab"
+    },
+    {
+      icon: "grid",
+      name: "Grid",
+      redirectTo: "/grid"
     },
 ]
 
