@@ -50,10 +50,6 @@ const routes: Routes = [
     loadChildren: () => import('./pages/grid/grid.module').then( m => m.GridPageModule)
   },
   {
-    path: 'infinity',
-    loadChildren: () => import('./pages/infinity/infinity.module').then( m => m.InfinityPageModule)
-  },
-  {
     path: 'infinite',
     loadChildren: () => import('./pages/infinite/infinite.module').then( m => m.InfinitePageModule)
   },
